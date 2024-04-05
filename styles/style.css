@@ -73,7 +73,7 @@
   height: 100%;
 }
 
-.overlay { 
+.overlay {
   position: absolute;
   z-index: 2;
   top: 0px;
@@ -110,7 +110,6 @@
 .letter-spacing-extended {
   letter-spacing: 0.3em;
 }
-
 
 .no-letter-spacing {
   letter-spacing: 0;
@@ -155,14 +154,12 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   text-transform: uppercase;
   white-space: nowrap;
   font-family: Raleway;
   font-size: 22px;
   font-weight: 500;
   line-height: 25.83px;
-  text-align: center;
 }
 
 /* третий блок */
@@ -170,28 +167,27 @@
 .lots {
   position: relative;
   margin-top: 179px;
-} 
+}
 
 .lots__heading {
-  color:#000;
+  color: #000;
   font-size: 40px;
   line-height: 46.96px;
   font-weight: 700;
   text-transform: uppercase;
   padding-left: 48px;
   margin-bottom: 27px;
-  
-} 
+}
 
 .lots__card-list {
-display: flex;
-justify-content: space-between;
-gap: 25px;
-height: 100%;
-width: 100%;
-margin-bottom: 30px;
-padding: 0 24px 0 24px;
-} 
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 0 24px 0 24px;
+}
 
 .lots__card-list-item {
   display: flex;
@@ -208,7 +204,6 @@ padding: 0 24px 0 24px;
 
 .card {
   list-style-type: none;
-  height: 100%;
   position: relative;
   height: 563px;
   width: 100%;
@@ -224,7 +219,7 @@ padding: 0 24px 0 24px;
   left: 0px;
   z-index: 1;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 .card_type_book {
@@ -237,7 +232,7 @@ padding: 0 24px 0 24px;
   left: 0px;
   z-index: 1;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 .card_type_picture {
@@ -250,11 +245,11 @@ padding: 0 24px 0 24px;
   left: 0px;
   z-index: 1;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 .card__title {
-  color:#ffffff;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 22px;
   list-style: none;
@@ -263,7 +258,7 @@ padding: 0 24px 0 24px;
 }
 
 .card__text {
-  color:#ffffff;
+  color: #ffffff;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
@@ -302,7 +297,7 @@ padding: 0 24px 0 24px;
   padding-left: 47px;
 }
 
-.about__logo-image { 
+.about__logo-image {
   width: 240px;
   height: 240px;
   background-color: #000;
@@ -333,18 +328,17 @@ padding: 0 24px 0 24px;
 
 /* пятый блок */
 
- .footer {
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 180px 0px 88px 0px;
   padding: 0 50px 0 50px;
- }
+}
 
 .footer_address {
   display: grid;
   grid-column-start: 1;
   grid-column-end: 2;
-  
 }
 
 .footer__menu {
@@ -354,10 +348,9 @@ padding: 0 24px 0 24px;
 }
 
 .footer__menu-list {
-list-style-type: none;
-text-align: center;
+  list-style-type: none;
+  text-align: center;
 }
-
 
 .footer__menu-link {
   font-size: 18px;
@@ -377,7 +370,6 @@ text-align: center;
   grid-column-end: 4;
   gap: 48px;
   list-style-type: none;
-
 }
 
 .footer__social-icon {
