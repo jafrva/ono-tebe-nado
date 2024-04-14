@@ -93,6 +93,7 @@
   display: block;
   padding-bottom: 10px;
   text-align: center;
+  letter-spacing: 0;
 }
 
 .aligned-text_right {
@@ -129,7 +130,6 @@
   text-transform: uppercase;
   z-index: 3;
   word-spacing: 5px;
-  letter-spacing: normal;
 }
 
 .bet-button {
