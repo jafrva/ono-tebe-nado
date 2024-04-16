@@ -60,6 +60,7 @@
 }
 .header__logo-image {
   width: 148px;
+  height: 105px;
 }
 
 .cover {
@@ -84,42 +85,38 @@
   position: relative;
   color: #ffffff;
   font-size: 100px;
-  line-height: 115px;
   text-transform: uppercase;
-  letter-spacing: 0.6em;
   z-index: 3;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text {
   display: block;
-  padding-bottom: 10px;
-  letter-spacing: 0px;
+  padding-bottom: 20px;
+  line-height: 115%;
 }
 
 .aligned-text_center {
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   text-align: center;
-  letter-spacing: 0px;
-  line-height: 100px;
+  line-height: 100%;
 }
 
 .aligned-text_right {
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   text-align: right;
-  letter-spacing: 0px;
+  line-height: 100%;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.3em;
+  letter-spacing: 0.6em;
 }
-
 
 .no-letter-spacing {
   letter-spacing: 0;
 }
-
 
 .cover__description {
   display: flex;
